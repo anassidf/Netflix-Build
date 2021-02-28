@@ -1,0 +1,33 @@
+.movie {
+	color: white;
+	margin-left: 27px;
+}
+
+.row {
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	margin-bottom: 55px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.row::-webkit-scrollbar {
+	display: none;
+}
+
+.poster {
+	max-height: 100px;
+	margin-right: 10px;
+	border-radius: 2px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.poster:hover {
+	transform: scale(1.2);
+}
+
+.poster_larg {
+	max-height: 250px;
+	opacity: 1;
+}

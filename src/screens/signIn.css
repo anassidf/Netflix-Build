@@ -1,0 +1,96 @@
+.signIn {
+	background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	background-color: white;
+	height: 100vh;
+}
+
+.signin_navbar {
+	position: fixed;
+	top: 20px;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+	z-index: 100;
+}
+
+.netflix_logo {
+	width: 100px;
+	height: 60px;
+
+	cursor: pointer;
+	position: fixed;
+	left: 30px;
+}
+.signin_button {
+	margin-right: 30px;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	background-color: red;
+	position: fixed;
+	right: 30px;
+	border-radius: 2px;
+	font-weight: 600;
+}
+
+.layout {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.8) 0%,
+		rgba(0, 0, 0, 0) 60%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.first_text {
+	margin-bottom: 20px;
+}
+.sec_text {
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+.third_text {
+	margin-bottom: 15px;
+}
+
+div > .sign_form {
+	width: 100%;
+}
+div > form > .emai_input {
+	padding: 10px;
+	border: none;
+	outline: none;
+	text-align: left;
+	width: 30%;
+}
+
+.start_button {
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: 600;
+}
